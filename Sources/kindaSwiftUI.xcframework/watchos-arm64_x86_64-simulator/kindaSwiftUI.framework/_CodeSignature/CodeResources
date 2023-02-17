@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		UGQ8zexNaAUMD4KlPhzeHuP2BIE=
+		7VJnDvrwDW7W+8J+d/I/UjoeTig=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		EREKx/O4ShMu5lWCxQeNBigEqNI=
+		48SWdKZ98zV+JqjKUbAsyanyEvY=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		EREKx/O4ShMu5lWCxQeNBigEqNI=
+		48SWdKZ98zV+JqjKUbAsyanyEvY=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		oyZe/9+WW1n729jtfZ65okH3/9E=
+		W5f5AC7G/hwpH9Govw0lvh5WbJg=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		UGQ8zexNaAUMD4KlPhzeHuP2BIE=
+		7VJnDvrwDW7W+8J+d/I/UjoeTig=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		Wg5h9ntQEG1Fg0wdIsURql7wJLU=
+		CNERNUd2EloZooDF2MbL/0R2Br8=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		Wg5h9ntQEG1Fg0wdIsURql7wJLU=
+		CNERNUd2EloZooDF2MbL/0R2Br8=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		JcfCd808k49iFBeblTqY/+UXNdw=
+		idyGIe6DxySQgGkFWt9Vp/Fk0M4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsVzyrjlq5GFalDrnbkKk/ZSltLtd1w4dbFcNFr7nUo=
+			EPeRjMIwpnGaiwgqkK9HG0cIkdtSAyMHBthBV8I9sHs=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VAAWpgKH5qx6q7n9sDz4QnaSw+hi19yyYe7NGwfflW8=
+			16IGjuY+BmKSkwohJt2U0EF0EevpMykTtm1epfbbceY=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VAAWpgKH5qx6q7n9sDz4QnaSw+hi19yyYe7NGwfflW8=
+			16IGjuY+BmKSkwohJt2U0EF0EevpMykTtm1epfbbceY=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q3eowSODfHpxlwlr3uETXGQJUbR+FYmGoeIkVETsBuA=
+			q30dKasBCm+yJmuF1toIIwK4oNRq1MbtB0HhNdNwJ2o=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsVzyrjlq5GFalDrnbkKk/ZSltLtd1w4dbFcNFr7nUo=
+			EPeRjMIwpnGaiwgqkK9HG0cIkdtSAyMHBthBV8I9sHs=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9rxDSLtPsbuTffuiHn1p+RpM3/oUEZrsJCKOBV4S6ds=
+			+R98JBdIGVwd6jVdlTXvptmvePxkSfaxthmvEh0nyxY=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9rxDSLtPsbuTffuiHn1p+RpM3/oUEZrsJCKOBV4S6ds=
+			+R98JBdIGVwd6jVdlTXvptmvePxkSfaxthmvEh0nyxY=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fi4XGzYUkNhl/pIG/KirS3krrcY4b2G86kNSROzkVk8=
+			wPW8L2esN2USMLx6A0mm/qTLpQHRrWcFYEr4bZ67mqQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -116,14 +116,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12kindaSwiftUI05KindabC0V9configureyyKFZ",
-            "mangledName": "$s12kindaSwiftUI05KindabC0V9configureyyKFZ",
+            "usr": "s:12kindaSwiftUI05KindabC0V9configureyyFZ",
+            "mangledName": "$s12kindaSwiftUI05KindabC0V9configureyyFZ",
             "moduleName": "kindaSwiftUI",
             "static": true,
             "declAttributes": [
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -142,14 +141,14 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 183,
+      "offset": 165,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 231,
+      "offset": 204,
       "length": 5,
       "value": "false"
     },
@@ -184,7 +183,7 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseKeys.swift",
       "kind": "Array",
-      "offset": 169,
+      "offset": 151,
       "length": 23,
       "value": "[\"12345\"]"
     }
