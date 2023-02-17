@@ -90,16 +90,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "kindaSwiftUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "KindaSwiftUI",
         "printedName": "KindaSwiftUI",
@@ -151,34 +141,6 @@
       "offset": 204,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/DataParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1077,
-      "length": 19,
-      "value": "\"KindaSwiftUI-Info\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/DataParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1077,
-      "length": 19,
-      "value": "\"KindaSwiftUI-Info\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/DataParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1147,
-      "length": 7,
-      "value": "\"plist\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/DataParser.swift",
-      "kind": "StringLiteral",
-      "offset": 1147,
-      "length": 7,
-      "value": "\"plist\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseKeys.swift",
