@@ -12,5 +12,5 @@ public struct API {
   public static func hello()
 }
 public struct KindaSwiftUI {
-  public static func configure()
+  public static func configure() throws
 }
