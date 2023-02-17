@@ -8,5 +8,5 @@ import _Concurrency
 import _StringProcessing
 @_exported import kindaSwiftUI
 public struct API {
-  public func hello()
+  public static func hello()
 }

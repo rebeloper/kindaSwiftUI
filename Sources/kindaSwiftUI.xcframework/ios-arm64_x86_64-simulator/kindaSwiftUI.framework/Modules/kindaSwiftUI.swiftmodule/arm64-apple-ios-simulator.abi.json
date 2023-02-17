@@ -31,9 +31,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12kindaSwiftUI3APIV5helloyyF",
-            "mangledName": "$s12kindaSwiftUI3APIV5helloyyF",
+            "usr": "s:12kindaSwiftUI3APIV5helloyyFZ",
+            "mangledName": "$s12kindaSwiftUI3APIV5helloyyFZ",
             "moduleName": "kindaSwiftUI",
+            "static": true,
             "declAttributes": [
               "AccessControl"
             ],
