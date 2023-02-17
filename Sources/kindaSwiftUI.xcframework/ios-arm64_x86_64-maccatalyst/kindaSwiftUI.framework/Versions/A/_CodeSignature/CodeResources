@@ -29,7 +29,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gErjFzv8urJDHnftWll7bYpX5lYj9W4B/qhJXacROTA=
+			SsVzyrjlq5GFalDrnbkKk/ZSltLtd1w4dbFcNFr7nUo=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -57,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYZfGOdIqVbxuoCAvrS/qm1VDUXn5vBhVQEx3SWxRwI=
+			H4byCtEVWkY9+DNn6nVhuBoCiHflsRWSOkTnwXBYpo4=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gErjFzv8urJDHnftWll7bYpX5lYj9W4B/qhJXacROTA=
+			SsVzyrjlq5GFalDrnbkKk/ZSltLtd1w4dbFcNFr7nUo=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JMVhNSOwE1hP4+TnvnOaaIeVRm0gS7JJ6c6WSMPQGA=
+			J0bYi9S0dVJMsBB7SJYXiynKTCSI/63mld5RhC+uQKA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
