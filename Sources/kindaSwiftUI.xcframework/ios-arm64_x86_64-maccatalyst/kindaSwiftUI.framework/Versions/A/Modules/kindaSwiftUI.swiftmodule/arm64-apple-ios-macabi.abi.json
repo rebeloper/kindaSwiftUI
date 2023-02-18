@@ -15,6 +15,179 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KindaSwiftUIContentView",
+        "printedName": "KindaSwiftUIContentView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KindaSwiftUIContentView",
+                "printedName": "kindaSwiftUI.KindaSwiftUIContentView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI05KindaB13UIContentViewV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI05KindaB13UIContentViewV7contentACyxGxyc_tcfc",
+            "mangledName": "$s12kindaSwiftUI05KindaB13UIContentViewV7contentACyxGxyc_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvp",
+            "mangledName": "$s12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvg",
+                "mangledName": "$s12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI05KindaB13UIContentViewV",
+        "mangledName": "$s12kindaSwiftUI05KindaB13UIContentViewV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "API",
         "printedName": "API",
@@ -90,38 +263,13 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "KindaSwiftUI",
-        "printedName": "KindaSwiftUI",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "configure",
-            "printedName": "configure()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12kindaSwiftUI05KindabC0V9configureyyFZ",
-            "mangledName": "$s12kindaSwiftUI05KindabC0V9configureyyFZ",
-            "moduleName": "kindaSwiftUI",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12kindaSwiftUI05KindabC0V",
-        "mangledName": "$s12kindaSwiftUI05KindabC0V",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "kindaSwiftUI",
         "declAttributes": [
-          "AccessControl"
+          "RawDocComment"
         ]
       }
     ],
@@ -129,25 +277,578 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseManager.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/KindaSwiftUIContentView.swift",
       "kind": "BooleanLiteral",
-      "offset": 165,
+      "offset": 384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 204,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 7,
+      "value": "\"trial\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/LicenseKeys.swift",
-      "kind": "Array",
-      "offset": 151,
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 7,
+      "value": "\"Trial\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 17,
+      "value": "\"trial@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 18,
+      "value": "\"9PoT7tNkp3O4PbXE\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 13,
+      "value": "\"Marisa Cruz\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 29,
+      "value": "\"brainfreezeapp.co@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 18,
+      "value": "\"TcAkruRg4jKs2QHr\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 17,
+      "value": "\"Javier Gonzalez\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 31,
+      "value": "\"javiergonzalez.7499@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 18,
+      "value": "\"uJu4SOVo88HhlKN2\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 22,
+      "value": "\"Ronald Steinvorth B.\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 677,
+      "length": 21,
+      "value": "\"ronaldsb@icloud.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 18,
+      "value": "\"DtFWdPhjx3fWYb2h\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 14,
+      "value": "\"Jon Sinclair\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 26,
+      "value": "\"jonsinclair1@hotmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 18,
+      "value": "\"Cvm18aZbcKG5qc6w\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 11,
+      "value": "\"Nic Deane\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 20,
+      "value": "\"njdeane7@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 18,
+      "value": "\"jaRtLrlNwrWwbCyB\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 15,
+      "value": "\"Agris Alksnis\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 20,
+      "value": "\"agris@appday.co.uk\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 18,
+      "value": "\"fi3B4bzMrcLyanjj\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 15,
+      "value": "\"Carlos Obando\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
+      "length": 25,
+      "value": "\"cobando@talovstudio.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1353,
+      "length": 18,
+      "value": "\"r3GttEQT4jsaZ2eR\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 15,
+      "value": "\"Ralf Langhoff\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 22,
+      "value": "\"ralf.langhoff@me.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 18,
+      "value": "\"yWJS98jBjctc1CaX\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 15,
+      "value": "\"Meseret Gebru\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 25,
+      "value": "\"meseret.gebru@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1647,
+      "length": 18,
+      "value": "\"1gxuU9YO2CkIuJcc\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1673,
+      "length": 16,
+      "value": "\"Rasheed Andrew\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1698,
+      "length": 26,
+      "value": "\"rasheedandrew1@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1798,
+      "length": 18,
+      "value": "\"8iL4ks45BqaFA3cd\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1824,
+      "length": 14,
+      "value": "\"Ken Ishimoto\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1847,
+      "length": 29,
+      "value": "\"k.ishimoto@treasureboat.org\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 18,
+      "value": "\"47EJXBus65dsmEw1\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 15,
+      "value": "\"Jason Wilkins\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
       "length": 23,
-      "value": "[\"12345\"]"
+      "value": "\"jason@wilkinsmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2095,
+      "length": 18,
+      "value": "\"QUe0O9HRF6VRVk55\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 11,
+      "value": "\"Greg Lose\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2141,
+      "length": 21,
+      "value": "\"lose.greg@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2238,
+      "length": 18,
+      "value": "\"wOFqzD2DdiT4jpfG\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2264,
+      "length": 13,
+      "value": "\"JIm Fetters\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2286,
+      "length": 29,
+      "value": "\"lifeintokyo2022@outlook.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 18,
+      "value": "\"8QfTi714OBE5hyWB\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2415,
+      "length": 12,
+      "value": "\"Tom Wilson\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 23,
+      "value": "\"twilson1111@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 18,
+      "value": "\"HpxPq2Qxv9Wucai0\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2559,
+      "length": 13,
+      "value": "\"Rick Urbano\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2581,
+      "length": 26,
+      "value": "\"richard.urbano@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2683,
+      "length": 18,
+      "value": "\"op6FKVfbgqsDHPfO\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2709,
+      "length": 13,
+      "value": "\"Daniel Gill\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 22,
+      "value": "\"dpg.mapped@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2829,
+      "length": 18,
+      "value": "\"TPGIitxaa5e0Ld52\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 16,
+      "value": "\"Hugh Mackenzie\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2880,
+      "length": 19,
+      "value": "\"hgm@gnosys.com.au\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 18,
+      "value": "\"jKzZEhVTN0Sz7vIE\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3001,
+      "length": 11,
+      "value": "\"Nick Daws\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3021,
+      "length": 23,
+      "value": "\"dominicdaws@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3117,
+      "length": 18,
+      "value": "\"De3Tn3YoNF1Qg0tV\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3143,
+      "length": 12,
+      "value": "\"Tim Miosga\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3164,
+      "length": 21,
+      "value": "\"t.miosga@icloud.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3259,
+      "length": 18,
+      "value": "\"gOLu5jIGZG5fsvyS\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3285,
+      "length": 15,
+      "value": "\"Rober Sobarzo\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 24,
+      "value": "\"sobarzorober@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3409,
+      "length": 18,
+      "value": "\"wzDDuBJRlPN9Ko3y\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3435,
+      "length": 18,
+      "value": "\"Kris Steigerwald\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 28,
+      "value": "\"kris.steigerwald@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3564,
+      "length": 18,
+      "value": "\"kgL27mhXwMoVEldt\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3590,
+      "length": 14,
+      "value": "\"Moneeb Sayed\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3613,
+      "length": 24,
+      "value": "\"moneebssayed@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3711,
+      "length": 18,
+      "value": "\"EQzo9GqvfSqVXg2f\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3737,
+      "length": 21,
+      "value": "\"John van Litsenburg\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3767,
+      "length": 23,
+      "value": "\"johnvlitsen@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3864,
+      "length": 18,
+      "value": "\"34eWf3g7RYy78lxE\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3890,
+      "length": 15,
+      "value": "\"Paul Halliday\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3914,
+      "length": 21,
+      "value": "\"dochalliday@mac.com\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4008,
+      "length": 18,
+      "value": "\"QbiaDLIGC5uyNqtY\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4034,
+      "length": 14,
+      "value": "\"Martin Doyle\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4057,
+      "length": 25,
+      "value": "\"martindoyle96@gmail.com\""
     }
   ]
 }
