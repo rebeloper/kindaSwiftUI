@@ -853,21 +853,21 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 826,
       "length": 326,
       "value": "\"kindaSwiftUI license key is undefined. Please (1) set up a `KindaSwiftUI-Info.plist` file with a `key` for your license key (use `trial` or you may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. https:\/\/store.rebeloper.com\/community ); (2) Wrap your app content into the 'KindaSwiftUIContentView'\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1197,
       "length": 257,
       "value": "\"The trial is full-featured and there's no expiry date, but without a subscription kindaSwiftUI gets lazy and sleeps from time to time. You may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. https:\/\/store.rebeloper.com\/community\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1512,
       "length": 291,
       "value": "\"You have an inactive license key. The trial is full-featured and there's no expiry date, but without a subscription kindaSwiftUI gets lazy and sleeps from time to time. You may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. https:\/\/store.rebeloper.com\/community\""
     }
