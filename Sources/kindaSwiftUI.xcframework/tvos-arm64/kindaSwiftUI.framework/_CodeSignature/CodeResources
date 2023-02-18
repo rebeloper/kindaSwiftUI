@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		IdxgaSeZ3xIP7IGip8vp7Dnhjf0=
+		kDWzwIKpwfYuO3ssZR7U0YqZDh4=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		YintpzKTrd88BFSQLHT0x0A39mU=
+		tUj3/bC2lIOWN17BUwvCFzh+SWE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcUHj55kxmTVuw4sGlEtpq9KYRaiis+fv1vtUDSjUwk=
+			OPTX3pKrrTiGl/PxnAZ2Ny71L0bEUW75CAdiohsfMr0=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SAvpVB/MV90Wzowdjr4UOiJbXxTBjR3JeZuB1tkNTUo=
+			yHsxUcwx+xn3g+py8HEawSe+EIpOLJhaA/jlQ/uLU0E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
