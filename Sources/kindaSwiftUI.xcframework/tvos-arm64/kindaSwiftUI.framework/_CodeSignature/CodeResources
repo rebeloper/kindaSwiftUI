@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		cK3wHZWxuFswt6SbYMXcEJeC5GQ=
+		6J/x8/rKMiQmTt1pjrahW+U0Y9U=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
-		Mlz7m0q21yzSlItnaY683tFg1s8=
+		Cj5G3N/aMRq5pM21sH+FXq+InI0=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
-		rszsfq5kC+o08EdGCRO201YqZpU=
+		4te4bWSzad4qzm6FgV3KbAOnGx8=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		Mlz7m0q21yzSlItnaY683tFg1s8=
+		Cj5G3N/aMRq5pM21sH+FXq+InI0=
 		</data>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		1oP426HEr0SImQ4DTN92Dd8qAPE=
+		xWWCpLvHIiWjfQkkHwBrPzDb5KE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fay/kqOy5KBHNaNBcXJ+5Wi+flGCZ0VNYcQLFrd2jVM=
+			tCaEiJoZ6jyd2yXa324E1d82jltuJlbk+zYQVhygJ0c=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWVWR89bDOQFDIVoVNdpPiEUXDpcNnM8QZzws4nTCdE=
+			RcO8bHp7QAEQAjSAk4UTnyHQev23ubMLIuWJ8f7SqoU=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			96DW3W2XpsHEXKa9hh4gajHh2/Aun4wsc2iUJoEV14I=
+			Te4ErJsSxUm/jjirAMU7t+Pxl3F/c4lsrL6xZ8B+fOU=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OWVWR89bDOQFDIVoVNdpPiEUXDpcNnM8QZzws4nTCdE=
+			RcO8bHp7QAEQAjSAk4UTnyHQev23ubMLIuWJ8f7SqoU=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sHcYtdkj63teFVL+LhhjfyUl1iaEd3xq+siqEKvwK8w=
+			nRC2XQHaDFbzxoWxpHLNGH5OdKx9pAFf/w10noHpWW0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

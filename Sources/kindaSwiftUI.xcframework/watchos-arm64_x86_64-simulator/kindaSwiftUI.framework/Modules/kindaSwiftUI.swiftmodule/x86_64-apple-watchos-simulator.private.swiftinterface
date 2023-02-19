@@ -8,6 +8,9 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 @_exported import kindaSwiftUI
+extension SwiftUI.Color {
+  public init(hex: Swift.String)
+}
 @_Concurrency.MainActor(unsafe) public struct KindaSwiftUIContentView<Content> : SwiftUI.View where Content : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(@SwiftUI.ViewBuilder content: @escaping () -> Content)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
