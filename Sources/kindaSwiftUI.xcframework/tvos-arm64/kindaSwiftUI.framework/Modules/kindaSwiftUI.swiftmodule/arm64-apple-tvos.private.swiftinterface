@@ -19,9 +19,6 @@ extension SwiftUI.Color {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvp", 0) __<Content>
 }
-public struct API {
-  public static func hello()
-}
 @_Concurrency.MainActor(unsafe) public struct RouterStack<Destination> : SwiftUI.View where Destination : kindaSwiftUI.RouterDestination {
   @_Concurrency.MainActor(unsafe) public init(root: Destination)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
