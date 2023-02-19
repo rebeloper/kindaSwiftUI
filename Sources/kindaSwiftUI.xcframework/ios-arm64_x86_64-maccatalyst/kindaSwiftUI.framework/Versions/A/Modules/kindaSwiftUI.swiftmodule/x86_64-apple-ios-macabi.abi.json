@@ -25,6 +25,77 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TabRoot",
+        "printedName": "TabRoot",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:tab:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TabRoot",
+                "printedName": "kindaSwiftUI.TabRoot<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI7TabRootV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI7TabRootV_3tabACyxq_Gx_q_tcfc",
+            "mangledName": "$s12kindaSwiftUI7TabRootV_3tabACyxq_Gx_q_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
+            "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI7TabRootV",
+        "mangledName": "$s12kindaSwiftUI7TabRootV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
+        "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -208,6 +279,391 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTabRoot",
+        "printedName": "CustomTabRoot",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:tab:unselectedTab:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabRoot",
+                "printedName": "kindaSwiftUI.CustomTabRoot<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI13CustomTabRootV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_2"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI13CustomTabRootV_3tab010unselectedE0ACyxq_q0_Gx_q_q0_tcfc",
+            "mangledName": "$s12kindaSwiftUI13CustomTabRootV_3tab010unselectedE0ACyxq_q0_Gx_q_q0_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
+            "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI13CustomTabRootV",
+        "mangledName": "$s12kindaSwiftUI13CustomTabRootV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
+        "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTabRouterStack",
+        "printedName": "CustomTabRouterStack",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(roots:tabs:unselectedTabs:tabSelection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabRouterStack",
+                "printedName": "kindaSwiftUI.CustomTabRouterStack<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI20CustomTabRouterStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_2]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI20CustomTabRouterStackV5roots4tabs14unselectedTabs12tabSelectionACyxq_q0_GSayxG_Sayq_GSayq0_GSitcfc",
+            "mangledName": "$s12kindaSwiftUI20CustomTabRouterStackV5roots4tabs14unselectedTabs12tabSelectionACyxq_q0_GSayxG_Sayq_GSayq0_GSitcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
+            "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:tabSelection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTabRouterStack",
+                "printedName": "kindaSwiftUI.CustomTabRouterStack<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI20CustomTabRouterStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[kindaSwiftUI.CustomTabRoot<τ_0_0, τ_0_1, τ_0_2>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomTabRoot",
+                    "printedName": "kindaSwiftUI.CustomTabRoot<τ_0_0, τ_0_1, τ_0_2>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_2"
+                      }
+                    ],
+                    "usr": "s:12kindaSwiftUI13CustomTabRootV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI20CustomTabRouterStackV_12tabSelectionACyxq_q0_GSayAA0dE4RootVyxq_q0_GG_Sitcfc",
+            "mangledName": "$s12kindaSwiftUI20CustomTabRouterStackV_12tabSelectionACyxq_q0_GSayAA0dE4RootVyxq_q0_GG_Sitcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
+            "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI20CustomTabRouterStackV4bodyQrvp",
+            "mangledName": "$s12kindaSwiftUI20CustomTabRouterStackV4bodyQrvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI20CustomTabRouterStackV4bodyQrvg",
+                "mangledName": "$s12kindaSwiftUI20CustomTabRouterStackV4bodyQrvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
+                "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI20CustomTabRouterStackV",
+        "mangledName": "$s12kindaSwiftUI20CustomTabRouterStackV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
+        "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "API",
         "printedName": "API",
@@ -244,8 +700,2286 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouterStack",
+        "printedName": "RouterStack",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(root:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RouterStack",
+                "printedName": "kindaSwiftUI.RouterStack<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI11RouterStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI11RouterStackV4rootACyxGx_tcfc",
+            "mangledName": "$s12kindaSwiftUI11RouterStackV4rootACyxGx_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI11RouterStackV4bodyQrvp",
+            "mangledName": "$s12kindaSwiftUI11RouterStackV4bodyQrvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI11RouterStackV4bodyQrvg",
+                "mangledName": "$s12kindaSwiftUI11RouterStackV4bodyQrvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI11RouterStackV",
+        "mangledName": "$s12kindaSwiftUI11RouterStackV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+        "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Router",
+        "printedName": "Router",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modalsState",
+            "printedName": "modalsState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.Bool]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Bool]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.Bool]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Bool]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.Bool]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Bool]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC11modalsStateSaySaySbGGvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$modalsState",
+            "printedName": "$modalsState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Bool>>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_Gvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Bool>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_Gvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Bool>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_Gvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC12$modalsState7Combine9PublishedV9PublisherVySaySaySbGG_GvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activeModalsIndices",
+            "printedName": "activeModalsIndices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.Int]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.Int]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.Int]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC19activeModalsIndicesSaySaySiGGvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$activeModalsIndices",
+            "printedName": "$activeModalsIndices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Int>>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_Gvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Int>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_Gvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Int>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_Gvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC20$activeModalsIndices7Combine9PublishedV9PublisherVySaySaySiGG_GvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tabSelection",
+            "printedName": "tabSelection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC12tabSelectionSivp",
+            "mangledName": "$s12kindaSwiftUI6RouterC12tabSelectionSivp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC12tabSelectionSivg",
+                "mangledName": "$s12kindaSwiftUI6RouterC12tabSelectionSivg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC12tabSelectionSivs",
+                "mangledName": "$s12kindaSwiftUI6RouterC12tabSelectionSivs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC12tabSelectionSivM",
+                "mangledName": "$s12kindaSwiftUI6RouterC12tabSelectionSivM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$tabSelection",
+            "printedName": "$tabSelection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Int>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_Gvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Int>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_Gvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Int>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_Gvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC13$tabSelection7Combine9PublishedV9PublisherVySi_GvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paths",
+            "printedName": "paths",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[SwiftUI.NavigationPath]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SwiftUI.NavigationPath]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NavigationPath",
+                        "printedName": "SwiftUI.NavigationPath",
+                        "usr": "s:7SwiftUI14NavigationPathV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[SwiftUI.NavigationPath]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftUI.NavigationPath]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationPath",
+                            "printedName": "SwiftUI.NavigationPath",
+                            "usr": "s:7SwiftUI14NavigationPathV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[SwiftUI.NavigationPath]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SwiftUI.NavigationPath]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationPath",
+                            "printedName": "SwiftUI.NavigationPath",
+                            "usr": "s:7SwiftUI14NavigationPathV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC5pathsSaySay0bC014NavigationPathVGGvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$paths",
+            "printedName": "$paths",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.Array<SwiftUI.NavigationPath>>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_Gvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<SwiftUI.NavigationPath>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_Gvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<SwiftUI.NavigationPath>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_Gvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC6$paths7Combine9PublishedV9PublisherVySaySay0bC014NavigationPathVGG_GvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pathIndex",
+            "printedName": "pathIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC9pathIndexSaySiGvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC9pathIndexSaySiGvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC9pathIndexSaySiGvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC9pathIndexSaySiGvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC9pathIndexSaySiGvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC9pathIndexSaySiGvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC9pathIndexSaySiGvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC9pathIndexSaySiGvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$pathIndex",
+            "printedName": "$pathIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.Int>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_Gvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Int>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_Gvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Int>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_Gvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC10$pathIndex7Combine9PublishedV9PublisherVySaySiG_GvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC4push_10completionyx_yyctF",
+            "mangledName": "$s12kindaSwiftUI6RouterC4push_10completionyx_yyctF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC4pushyyxYaF",
+            "mangledName": "$s12kindaSwiftUI6RouterC4pushyyxYaF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC7present_10completionyx_yyctF",
+            "mangledName": "$s12kindaSwiftUI6RouterC7present_10completionyx_yyctF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC7presentyyxYaF",
+            "mangledName": "$s12kindaSwiftUI6RouterC7presentyyxYaF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PopType",
+                "printedName": "kindaSwiftUI.PopType",
+                "hasDefaultArg": true,
+                "usr": "s:12kindaSwiftUI7PopTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC3pop_10completionyAA7PopTypeO_yyctF",
+            "mangledName": "$s12kindaSwiftUI6RouterC3pop_10completionyAA7PopTypeO_yyctF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PopType",
+                "printedName": "kindaSwiftUI.PopType",
+                "hasDefaultArg": true,
+                "usr": "s:12kindaSwiftUI7PopTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC3popyyAA7PopTypeOYaF",
+            "mangledName": "$s12kindaSwiftUI6RouterC3popyyAA7PopTypeOYaF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12kindaSwiftUI6RouterC",
+        "mangledName": "$s12kindaSwiftUI6RouterC",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+        "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PopType",
+        "printedName": "PopType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "one",
+            "printedName": "one",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopType",
+                    "printedName": "kindaSwiftUI.PopType",
+                    "usr": "s:12kindaSwiftUI7PopTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO3oneyA2CmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO3oneyA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "the",
+            "printedName": "the",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> (Swift.Int) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> kindaSwiftUI.PopType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(last: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO3theyACSi_tcACmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO3theyACSi_tcACmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "to",
+            "printedName": "to",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> (Swift.Int) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> kindaSwiftUI.PopType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(index: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO2toyACSi_tcACmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO2toyACSi_tcACmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "toRoot",
+            "printedName": "toRoot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopType",
+                    "printedName": "kindaSwiftUI.PopType",
+                    "usr": "s:12kindaSwiftUI7PopTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO6toRootyA2CmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO6toRootyA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "toNearestRoot",
+            "printedName": "toNearestRoot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopType",
+                    "printedName": "kindaSwiftUI.PopType",
+                    "usr": "s:12kindaSwiftUI7PopTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO13toNearestRootyA2CmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO13toNearestRootyA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "theLastWith",
+            "printedName": "theLastWith",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> (kindaSwiftUI.PopStyle, Swift.Int) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(kindaSwiftUI.PopStyle, Swift.Int) -> kindaSwiftUI.PopType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(style: kindaSwiftUI.PopStyle, last: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PopStyle",
+                            "printedName": "kindaSwiftUI.PopStyle",
+                            "usr": "s:12kindaSwiftUI8PopStyleO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO11theLastWithyAcA0D5StyleO_SitcACmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO11theLastWithyAcA0D5StyleO_SitcACmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "toIndexWith",
+            "printedName": "toIndexWith",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> (kindaSwiftUI.PopStyle, Swift.Int) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(kindaSwiftUI.PopStyle, Swift.Int) -> kindaSwiftUI.PopType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(style: kindaSwiftUI.PopStyle, index: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PopStyle",
+                            "printedName": "kindaSwiftUI.PopStyle",
+                            "usr": "s:12kindaSwiftUI8PopStyleO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO11toIndexWithyAcA0D5StyleO_SitcACmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO11toIndexWithyAcA0D5StyleO_SitcACmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "toRootWith",
+            "printedName": "toRootWith",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> (kindaSwiftUI.PopStyle) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(kindaSwiftUI.PopStyle) -> kindaSwiftUI.PopType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(style: kindaSwiftUI.PopStyle)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PopStyle",
+                            "printedName": "kindaSwiftUI.PopStyle",
+                            "usr": "s:12kindaSwiftUI8PopStyleO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO10toRootWithyAcA0D5StyleO_tcACmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO10toRootWithyAcA0D5StyleO_tcACmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "toNearestRootWith",
+            "printedName": "toNearestRootWith",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopType.Type) -> (kindaSwiftUI.PopStyle) -> kindaSwiftUI.PopType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(kindaSwiftUI.PopStyle) -> kindaSwiftUI.PopType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(style: kindaSwiftUI.PopStyle)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PopStyle",
+                            "printedName": "kindaSwiftUI.PopStyle",
+                            "usr": "s:12kindaSwiftUI8PopStyleO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopType",
+                        "printedName": "kindaSwiftUI.PopType",
+                        "usr": "s:12kindaSwiftUI7PopTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI7PopTypeO17toNearestRootWithyAcA0D5StyleO_tcACmF",
+            "mangledName": "$s12kindaSwiftUI7PopTypeO17toNearestRootWithyAcA0D5StyleO_tcACmF",
+            "moduleName": "kindaSwiftUI"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12kindaSwiftUI7PopTypeO",
+        "mangledName": "$s12kindaSwiftUI7PopTypeO",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PopStyle",
+        "printedName": "PopStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "oneByOne",
+            "printedName": "oneByOne",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopStyle.Type) -> kindaSwiftUI.PopStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopStyle",
+                    "printedName": "kindaSwiftUI.PopStyle",
+                    "usr": "s:12kindaSwiftUI8PopStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopStyle",
+                        "printedName": "kindaSwiftUI.PopStyle",
+                        "usr": "s:12kindaSwiftUI8PopStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI8PopStyleO8oneByOneyA2CmF",
+            "mangledName": "$s12kindaSwiftUI8PopStyleO8oneByOneyA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "shortest",
+            "printedName": "shortest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.PopStyle.Type) -> kindaSwiftUI.PopStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopStyle",
+                    "printedName": "kindaSwiftUI.PopStyle",
+                    "usr": "s:12kindaSwiftUI8PopStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.PopStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PopStyle",
+                        "printedName": "kindaSwiftUI.PopStyle",
+                        "usr": "s:12kindaSwiftUI8PopStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI8PopStyleO8shortestyA2CmF",
+            "mangledName": "$s12kindaSwiftUI8PopStyleO8shortestyA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "kindaSwiftUI.PopStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopStyle",
+                    "printedName": "kindaSwiftUI.PopStyle",
+                    "usr": "s:12kindaSwiftUI8PopStyleO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI8PopStyleO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12kindaSwiftUI8PopStyleO8rawValueACSgSS_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI8PopStyleO8rawValueSSvp",
+            "mangledName": "$s12kindaSwiftUI8PopStyleO8rawValueSSvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI8PopStyleO8rawValueSSvg",
+                "mangledName": "$s12kindaSwiftUI8PopStyleO8rawValueSSvg",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12kindaSwiftUI8PopStyleO",
+        "mangledName": "$s12kindaSwiftUI8PopStyleO",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "kindaSwiftUI",
         "declAttributes": [
@@ -260,6 +2994,464 @@
         "moduleName": "kindaSwiftUI",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouterDestination",
+        "printedName": "RouterDestination",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modalValue",
+            "printedName": "modalValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI17RouterDestinationP10modalValueSivp",
+            "mangledName": "$s12kindaSwiftUI17RouterDestinationP10modalValueSivp",
+            "moduleName": "kindaSwiftUI",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI17RouterDestinationP10modalValueSivg",
+                "mangledName": "$s12kindaSwiftUI17RouterDestinationP10modalValueSivg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Self where Self : kindaSwiftUI.RouterDestination>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(modalValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI17RouterDestinationP10modalValuexSgSi_tcfc",
+            "mangledName": "$s12kindaSwiftUI17RouterDestinationP10modalValuexSgSi_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Self where Self : kindaSwiftUI.RouterDestination>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12kindaSwiftUI17RouterDestinationP",
+        "mangledName": "$s12kindaSwiftUI17RouterDestinationP",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 : Swift.Hashable, τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : Swift.Hashable, Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouterTab",
+        "printedName": "RouterTab",
+        "declKind": "Protocol",
+        "usr": "s:12kindaSwiftUI9RouterTabP",
+        "mangledName": "$s12kindaSwiftUI9RouterTabP",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 : Swift.Hashable, τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : Swift.Hashable, Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouterUnselectedTab",
+        "printedName": "RouterUnselectedTab",
+        "declKind": "Protocol",
+        "usr": "s:12kindaSwiftUI19RouterUnselectedTabP",
+        "mangledName": "$s12kindaSwiftUI19RouterUnselectedTabP",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 : Swift.Hashable, τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : Swift.Hashable, Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TabRouterStack",
+        "printedName": "TabRouterStack",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(roots:tabs:tabSelection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TabRouterStack",
+                "printedName": "kindaSwiftUI.TabRouterStack<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI14TabRouterStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI14TabRouterStackV5roots4tabs12tabSelectionACyxq_GSayxG_Sayq_GSitcfc",
+            "mangledName": "$s12kindaSwiftUI14TabRouterStackV5roots4tabs12tabSelectionACyxq_GSayxG_Sayq_GSitcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
+            "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:tabSelection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TabRouterStack",
+                "printedName": "kindaSwiftUI.TabRouterStack<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI14TabRouterStackV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[kindaSwiftUI.TabRoot<τ_0_0, τ_0_1>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TabRoot",
+                    "printedName": "kindaSwiftUI.TabRoot<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:12kindaSwiftUI7TabRootV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI14TabRouterStackV_12tabSelectionACyxq_GSayAA0D4RootVyxq_GG_Sitcfc",
+            "mangledName": "$s12kindaSwiftUI14TabRouterStackV_12tabSelectionACyxq_GSayAA0D4RootVyxq_GG_Sitcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
+            "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI14TabRouterStackV4bodyQrvp",
+            "mangledName": "$s12kindaSwiftUI14TabRouterStackV4bodyQrvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI14TabRouterStackV4bodyQrvg",
+                "mangledName": "$s12kindaSwiftUI14TabRouterStackV4bodyQrvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
+                "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI14TabRouterStackV",
+        "mangledName": "$s12kindaSwiftUI14TabRouterStackV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
+        "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
         ]
       },
       {
@@ -419,6 +3611,171 @@
             "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fullScreenCover",
+            "printedName": "fullScreenCover(for:onDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP05kindaaB0E15fullScreenCover3for9onDismissQrqd___yycSgtAD17RouterDestinationRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP05kindaaB0E15fullScreenCover3for9onDismissQrqd___yycSgtAD17RouterDestinationRd__lF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Self, Destination where Self : SwiftUI.View, Destination : kindaSwiftUI.RouterDestination>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sheet",
+            "printedName": "sheet(for:presentationDetents:presentationDragIndicatorVisibility:onDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<SwiftUI.PresentationDetent>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PresentationDetent",
+                    "printedName": "SwiftUI.PresentationDetent",
+                    "usr": "s:7SwiftUI18PresentationDetentV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Visibility",
+                "printedName": "SwiftUI.Visibility",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI10VisibilityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP05kindaaB0E5sheet3for19presentationDetents0G23DragIndicatorVisibility9onDismissQrqd___ShyAA18PresentationDetentVGAA0K0OyycSgtAD17RouterDestinationRd__lF",
+            "mangledName": "$s7SwiftUI4ViewP05kindaaB0E5sheet3for19presentationDetents0G23DragIndicatorVisibility9onDismissQrqd___ShyAA18PresentationDetentVGAA0K0OyycSgtAD17RouterDestinationRd__lF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Self, Destination where Self : SwiftUI.View, Destination : kindaSwiftUI.RouterDestination>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
       }
     ],
     "json_format_version": 8
@@ -430,6 +3787,132 @@
       "offset": 384,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/FullScreenCoverRouterModifier.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
+      "kind": "Array",
+      "offset": 889,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/RootNavigationStack.swift",
+      "kind": "Array",
+      "offset": 631,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 528,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 538,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
+      "kind": "Array",
+      "offset": 624,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
+      "kind": "Array",
+      "offset": 2125,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/TabRouterStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 721,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/TabRouterStack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
