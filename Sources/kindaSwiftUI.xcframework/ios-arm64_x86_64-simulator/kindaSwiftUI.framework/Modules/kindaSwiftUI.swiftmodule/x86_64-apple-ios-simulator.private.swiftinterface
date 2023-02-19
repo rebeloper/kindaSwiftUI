@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name kindaSwiftUI
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
 import Foundation
 import Swift
 import SwiftUI
@@ -46,7 +47,7 @@ public struct API {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI11RouterStackV4bodyQrvp", 0) __<Destination>
 }
-@_hasMissingDesignatedInitializers public class Router<Destination> : Foundation.ObservableObject where Destination : kindaSwiftUI.RouterDestination {
+public class Router<Destination> : Combine.ObservableObject where Destination : kindaSwiftUI.RouterDestination {
   @Combine.Published @_projectedValueProperty($modalsState) public var modalsState: [Swift.Array<Swift.Bool>] {
     get
     set
@@ -97,6 +98,7 @@ public struct API {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  public init()
   public func push(_ destination: Destination, completion: @escaping () -> () = {})
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor public func push(_ destination: Destination) async

@@ -465,6 +465,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Router",
         "printedName": "Router",
@@ -1628,6 +1635,36 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Router",
+                "printedName": "kindaSwiftUI.Router<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI6RouterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI6RouterCACyxGycfc",
+            "mangledName": "$s12kindaSwiftUI6RouterCACyxGycfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "push",
             "printedName": "push(_:completion:)",
@@ -1866,7 +1903,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -3012,56 +3048,56 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 230,
+      "offset": 245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 244,
+      "offset": 259,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 257,
+      "offset": 272,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 360,
+      "offset": 375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 456,
+      "offset": 471,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 469,
+      "offset": 484,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 528,
+      "offset": 543,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 538,
+      "offset": 553,
       "length": 2,
       "value": "10"
     },
