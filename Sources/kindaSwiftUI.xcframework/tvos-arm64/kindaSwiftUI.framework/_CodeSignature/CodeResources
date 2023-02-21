@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/kindaSwiftUI247.framework/Info.plist</key>
+		<data>
+		G0+LredrvyCwlnOT2gZvkPW9hB0=
+		</data>
+		<key>Frameworks/kindaSwiftUI247.framework/_CodeSignature/CodeResources</key>
+		<data>
+		vbZN80BkqAO7OiZjIOT2PJLLhiQ=
+		</data>
+		<key>Frameworks/kindaSwiftUI247.framework/kindaSwiftUI247</key>
+		<data>
+		8PmAzQ29US/TqD9XBQhQcnsASzI=
+		</data>
 		<key>Headers/kindaSwiftUI-Swift.h</key>
 		<data>
 		OUEVnCNM3oyedWKwWU2nhDw4Mfo=
@@ -43,6 +55,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/kindaSwiftUI247.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8KXjww7ogVuX/3Pm4AbIGXUtNbM2pp8LrKZ2mO4YL+o=
+			</data>
+		</dict>
+		<key>Frameworks/kindaSwiftUI247.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BfjULwlSbOd+gtfneHdjQI83O6czo1uF+nhDN2fsVSU=
+			</data>
+		</dict>
+		<key>Frameworks/kindaSwiftUI247.framework/kindaSwiftUI247</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ctnDezYkpTT57TZoS0mYWOhAx4YTk4AtbRJCGw6fBQc=
+			</data>
+		</dict>
 		<key>Headers/kindaSwiftUI-Swift.h</key>
 		<dict>
 			<key>hash2</key>
