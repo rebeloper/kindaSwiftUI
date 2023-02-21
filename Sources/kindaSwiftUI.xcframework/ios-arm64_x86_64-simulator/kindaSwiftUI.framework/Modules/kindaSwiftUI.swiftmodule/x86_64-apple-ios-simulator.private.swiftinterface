@@ -9,18 +9,12 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 @_exported import kindaSwiftUI
+import kindaSwiftUI247
 public struct TabRoot<Destination, Tab> where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab {
   public init(_ root: Destination, tab: Tab)
 }
 extension SwiftUI.Color {
   public init(hex: Swift.String)
-}
-@_Concurrency.MainActor(unsafe) public struct KindaSwiftUIContentView<Content> : SwiftUI.View where Content : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(@SwiftUI.ViewBuilder content: @escaping () -> Content)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvp", 0) __<Content>
 }
 extension SwiftUI.View {
   public func fullScreenCover<Destination>(for modal: Destination, onDismiss: (() -> Swift.Void)? = nil) -> some SwiftUI.View where Destination : kindaSwiftUI.RouterDestination

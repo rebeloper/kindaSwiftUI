@@ -9,15 +9,9 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 @_exported import kindaSwiftUI
+import kindaSwiftUI247
 extension SwiftUI.Color {
   public init(hex: Swift.String)
-}
-@_Concurrency.MainActor(unsafe) public struct KindaSwiftUIContentView<Content> : SwiftUI.View where Content : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(@SwiftUI.ViewBuilder content: @escaping () -> Content)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI05KindaB13UIContentViewV4bodyQrvp", 0) __<Content>
 }
 @_Concurrency.MainActor(unsafe) public struct RouterStack<Destination> : SwiftUI.View where Destination : kindaSwiftUI.RouterDestination {
   @_Concurrency.MainActor(unsafe) public init(root: Destination)
