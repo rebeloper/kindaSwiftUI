@@ -11,15 +11,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/kindaSwiftUI247.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			sSRFGXtPmUKWLlkYZKSbbBEUYDc=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.rebeloper.kindaSwiftUI247" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: SANDOR NAGY (Z3U2E474MC)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
-		</dict>
 		<key>Headers/kindaSwiftUI-Swift.h</key>
 		<dict>
 			<key>hash2</key>
