@@ -2,6 +2,8 @@
 
 ## How to install
 
+Documentation is currently work in progress 😁
+
 <img src="../assets/kindaSwiftUISetup1.png?raw=true">
 <img src="../assets/kindaSwiftUISetup2.png?raw=true">
 <img src="../assets/kindaSwiftUISetup3.png?raw=true">
