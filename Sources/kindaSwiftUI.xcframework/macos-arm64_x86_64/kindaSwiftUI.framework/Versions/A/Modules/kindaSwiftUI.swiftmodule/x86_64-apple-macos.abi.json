@@ -2851,13 +2851,6 @@
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9141,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 514,
