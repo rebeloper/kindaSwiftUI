@@ -71,6 +71,16 @@ public class Router<Destination> : Combine.ObservableObject where Destination : 
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($stackedViewsInModals) public var stackedViewsInModals: [Swift.Int] {
+    get
+    set
+    _modify
+  }
+  public var $stackedViewsInModals: Combine.Published<[Swift.Int]>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
   public init()
   public func push(_ destination: Destination, completion: @escaping () -> () = {})
   #if compiler(>=5.3) && $AsyncAwait
