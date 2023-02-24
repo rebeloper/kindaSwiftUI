@@ -2743,6 +2743,13 @@
       "offset": 576,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9141,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
