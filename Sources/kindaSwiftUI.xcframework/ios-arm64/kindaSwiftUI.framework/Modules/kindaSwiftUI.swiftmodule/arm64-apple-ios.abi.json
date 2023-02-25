@@ -1811,8 +1811,8 @@
           },
           {
             "kind": "Var",
-            "name": "stackedViewsInModals",
-            "printedName": "stackedViewsInModals",
+            "name": "modalsCount",
+            "printedName": "modalsCount",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1830,8 +1830,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvp",
-            "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvp",
+            "usr": "s:12kindaSwiftUI6RouterC11modalsCountSaySiGvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC11modalsCountSaySiGvp",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
               "ProjectedValueProperty",
@@ -1860,8 +1860,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvg",
-                "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvg",
+                "usr": "s:12kindaSwiftUI6RouterC11modalsCountSaySiGvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC11modalsCountSaySiGvg",
                 "moduleName": "kindaSwiftUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
                 "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
@@ -1894,8 +1894,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvs",
-                "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvs",
+                "usr": "s:12kindaSwiftUI6RouterC11modalsCountSaySiGvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC11modalsCountSaySiGvs",
                 "moduleName": "kindaSwiftUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
                 "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
@@ -1914,8 +1914,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvM",
-                "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySiGvM",
+                "usr": "s:12kindaSwiftUI6RouterC11modalsCountSaySiGvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC11modalsCountSaySiGvM",
                 "moduleName": "kindaSwiftUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
                 "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
@@ -1926,8 +1926,8 @@
           },
           {
             "kind": "Var",
-            "name": "$stackedViewsInModals",
-            "printedName": "$stackedViewsInModals",
+            "name": "$modalsCount",
+            "printedName": "$modalsCount",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1937,8 +1937,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_Gvp",
-            "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_Gvp",
+            "usr": "s:12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_Gvp",
             "moduleName": "kindaSwiftUI",
             "implicit": true,
             "accessors": [
@@ -1955,8 +1955,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_Gvg",
-                "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_Gvg",
+                "usr": "s:12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_Gvg",
                 "moduleName": "kindaSwiftUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
                 "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
@@ -1981,8 +1981,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_Gvs",
-                "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_Gvs",
+                "usr": "s:12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_Gvs",
                 "moduleName": "kindaSwiftUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
                 "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
@@ -2011,8 +2011,254 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_GvM",
-                "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySiG_GvM",
+                "usr": "s:12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC12$modalsCount7Combine9PublishedV9PublisherVySaySiG_GvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stackedViewsInModals",
+            "printedName": "stackedViewsInModals",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.Int]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.Int]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.Int]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Int]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC20stackedViewsInModalsSaySaySiGGvM",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$stackedViewsInModals",
+            "printedName": "$stackedViewsInModals",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Int>>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_Gvp",
+            "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_Gvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Int>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_Gvg",
+                "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_Gvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Array<Swift.Array<Swift.Int>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_Gvs",
+                "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_Gvs",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+                "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_GvM",
+                "mangledName": "$s12kindaSwiftUI6RouterC21$stackedViewsInModals7Combine9PublishedV9PublisherVySaySaySiGG_GvM",
                 "moduleName": "kindaSwiftUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
                 "sugared_genericSig": "<Destination where Destination : kindaSwiftUI.RouterDestination>",
@@ -3888,10 +4134,31 @@
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "Array",
-      "offset": 641,
+      "offset": 722,
       "length": 3,
       "value": "[0]"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "kind": "IntegerLiteral",
+      "offset": 734,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",

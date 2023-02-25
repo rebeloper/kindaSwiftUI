@@ -89,12 +89,22 @@ public class Router<Destination> : Combine.ObservableObject where Destination : 
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @Combine.Published @_projectedValueProperty($stackedViewsInModals) public var stackedViewsInModals: [Swift.Int] {
+  @Combine.Published @_projectedValueProperty($modalsCount) public var modalsCount: [Swift.Int] {
     get
     set
     _modify
   }
-  public var $stackedViewsInModals: Combine.Published<[Swift.Int]>.Publisher {
+  public var $modalsCount: Combine.Published<[Swift.Int]>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($stackedViewsInModals) public var stackedViewsInModals: [[Swift.Int]] {
+    get
+    set
+    _modify
+  }
+  public var $stackedViewsInModals: Combine.Published<[[Swift.Int]]>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
