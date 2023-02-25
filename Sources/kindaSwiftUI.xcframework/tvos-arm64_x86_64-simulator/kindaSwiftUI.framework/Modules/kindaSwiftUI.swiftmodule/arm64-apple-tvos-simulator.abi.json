@@ -3244,8 +3244,8 @@
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Internal\/log.swift",
       "kind": "StringLiteral",
       "offset": 285,
-      "length": 10,
-      "value": "\"HH:mm:ss\""
+      "length": 15,
+      "value": "\"HH:mm:ss.SSSS\""
     }
   ]
 }
