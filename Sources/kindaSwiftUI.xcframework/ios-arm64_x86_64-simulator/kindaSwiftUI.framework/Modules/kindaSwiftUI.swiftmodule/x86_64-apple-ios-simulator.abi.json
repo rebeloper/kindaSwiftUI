@@ -4065,7 +4065,7 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
       "kind": "IntegerLiteral",
-      "offset": 1874,
+      "offset": 1899,
       "length": 1,
       "value": "0"
     },
@@ -4182,6 +4182,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Internal\/log.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 10,
+      "value": "\"HH:mm:ss\""
+    },
+    {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/TabRouterStack.swift",
       "kind": "IntegerLiteral",
       "offset": 721,
@@ -4191,7 +4198,7 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/TabRouterStack.swift",
       "kind": "IntegerLiteral",
-      "offset": 1562,
+      "offset": 1587,
       "length": 1,
       "value": "0"
     }
