@@ -222,11 +222,11 @@ public class AlertCenter : Foundation.ObservableObject {
     set
   }
   public init()
-  public func present(options: kindaSwiftUI.AlertOptions)
-  public func present(_ type: kindaSwiftUI.AlertType, title: Swift.String? = nil, message: Swift.String? = nil, actions: [kindaSwiftUI.AlertAction]? = nil)
-  public func present(_ preset: kindaSwiftUI.AlertPreset, _ type: kindaSwiftUI.AlertType, message: Swift.String, actions: [kindaSwiftUI.AlertAction]? = nil)
-  public func present(_ error: Swift.Error, actions: [kindaSwiftUI.AlertAction]? = nil)
-  public func hide()
+  @_Concurrency.MainActor public func present(options: kindaSwiftUI.AlertOptions)
+  @_Concurrency.MainActor public func present(_ type: kindaSwiftUI.AlertType, title: Swift.String? = nil, message: Swift.String? = nil, actions: [kindaSwiftUI.AlertAction]? = nil)
+  @_Concurrency.MainActor public func present(_ preset: kindaSwiftUI.AlertPreset, _ type: kindaSwiftUI.AlertType, message: Swift.String, actions: [kindaSwiftUI.AlertAction]? = nil)
+  @_Concurrency.MainActor public func present(_ error: Swift.Error, actions: [kindaSwiftUI.AlertAction]? = nil)
+  @_Concurrency.MainActor public func hide()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }

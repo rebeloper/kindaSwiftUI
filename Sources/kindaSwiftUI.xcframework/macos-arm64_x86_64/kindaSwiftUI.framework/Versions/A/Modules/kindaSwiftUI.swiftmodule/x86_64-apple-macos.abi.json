@@ -5582,7 +5582,8 @@
             "mangledName": "$s12kindaSwiftUI11AlertCenterC7present7optionsyAA0D7OptionsV_tF",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5661,7 +5662,8 @@
             "mangledName": "$s12kindaSwiftUI11AlertCenterC7present_5title7message7actionsyAA0D4TypeO_SSSgAJSayAA0D6ActionVGSgtF",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5722,7 +5724,8 @@
             "mangledName": "$s12kindaSwiftUI11AlertCenterC7present__7message7actionsyAA0D6PresetO_AA0D4TypeOSSSayAA0D6ActionVGSgtF",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5771,7 +5774,8 @@
             "mangledName": "$s12kindaSwiftUI11AlertCenterC7present_7actionsys5Error_p_SayAA0D6ActionVGSgtF",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5791,7 +5795,8 @@
             "mangledName": "$s12kindaSwiftUI11AlertCenterC4hideyyF",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -7395,21 +7400,21 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "IntegerLiteral",
-      "offset": 579,
+      "offset": 574,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "Array",
-      "offset": 689,
+      "offset": 684,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "Array",
-      "offset": 2807,
+      "offset": 2754,
       "length": 2,
       "value": "[]"
     },
