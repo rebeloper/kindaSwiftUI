@@ -8974,20 +8974,20 @@
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
       "offset": 193,
-      "length": 16,
-      "value": "\"📟 Developer\""
+      "length": 11,
+      "value": "\"Developer\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 243,
+      "offset": 238,
       "length": 19,
       "value": "\"Navigation Router\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 286,
+      "offset": 281,
       "length": 14,
       "value": "\"Alert Center\""
     },
@@ -8995,34 +8995,34 @@
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
       "offset": 193,
-      "length": 16,
-      "value": "\"📟 Developer\""
+      "length": 11,
+      "value": "\"Developer\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 243,
+      "offset": 238,
       "length": 19,
       "value": "\"Navigation Router\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 286,
+      "offset": 281,
       "length": 14,
       "value": "\"Alert Center\""
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "Array",
-      "offset": 608,
+      "offset": 603,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 961,
       "length": 15,
       "value": "\"HH:mm:ss.SSSS\""
     },
