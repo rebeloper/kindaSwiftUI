@@ -196,6 +196,15 @@ public enum AlertActionLabel : Swift.String {
     get
   }
 }
+@_Concurrency.MainActor(unsafe) public struct AlertCenterViewModifier : SwiftUI.ViewModifier {
+  @_Concurrency.MainActor(unsafe) public func body(content: kindaSwiftUI.AlertCenterViewModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI23AlertCenterViewModifierV4body7contentQr0bC001_fG8_ContentVyACG_tF", 0) __
+}
+extension SwiftUI.View {
+  public func withAlertCenter() -> some SwiftUI.View
+  
+}
 public protocol RouterDestination : Swift.Hashable, SwiftUI.View {
   var modalValue: Swift.Int { get }
   init?(modalValue: Swift.Int)

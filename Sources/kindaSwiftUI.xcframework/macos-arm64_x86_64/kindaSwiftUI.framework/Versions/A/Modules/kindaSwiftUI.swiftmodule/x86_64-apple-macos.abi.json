@@ -4631,6 +4631,105 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "AlertCenterViewModifier",
+        "printedName": "AlertCenterViewModifier",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "body",
+            "printedName": "body(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_ViewModifier_Content",
+                "printedName": "SwiftUI._ViewModifier_Content<kindaSwiftUI.AlertCenterViewModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertCenterViewModifier",
+                    "printedName": "kindaSwiftUI.AlertCenterViewModifier",
+                    "usr": "s:12kindaSwiftUI23AlertCenterViewModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI23AlertCenterViewModifierV4body7contentQr0bC001_fG8_ContentVyACG_tF",
+            "mangledName": "$s12kindaSwiftUI23AlertCenterViewModifierV4body7contentQr0bC001_fG8_ContentVyACG_tF",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI23AlertCenterViewModifierV",
+        "mangledName": "$s12kindaSwiftUI23AlertCenterViewModifierV",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ViewModifier",
+            "printedName": "ViewModifier",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI12ViewModifierP",
+            "mangledName": "$s7SwiftUI12ViewModifierP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "RouterDestination",
         "printedName": "RouterDestination",
         "children": [
@@ -7008,6 +7107,34 @@
             "sugared_genericSig": "<Self, Destination where Self : SwiftUI.View, Destination : kindaSwiftUI.RouterDestination>",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withAlertCenter",
+            "printedName": "withAlertCenter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP05kindaaB0E15withAlertCenterQryF",
+            "mangledName": "$s7SwiftUI4ViewP05kindaaB0E15withAlertCenterQryF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -7414,7 +7541,7 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "Array",
-      "offset": 2754,
+      "offset": 2220,
       "length": 2,
       "value": "[]"
     },
