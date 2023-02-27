@@ -6,6 +6,200 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LicenseKeyStatusResult",
+        "printedName": "LicenseKeyStatusResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isActive",
+            "printedName": "isActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvp",
+            "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvg",
+                "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvg",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvs",
+                "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvs",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvM",
+                "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV8isActiveSbvM",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvp",
+            "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvg",
+                "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvg",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvs",
+                "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvs",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvM",
+                "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV7messageSSvM",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV",
+        "mangledName": "$s12kindaSwiftUI22LicenseKeyStatusResultV",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -420,6 +614,169 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "KindaSwiftUI247ContentView",
+        "printedName": "KindaSwiftUI247ContentView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KindaSwiftUI247ContentView",
+                "printedName": "kindaSwiftUI.KindaSwiftUI247ContentView<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12kindaSwiftUI05KindaB16UI247ContentViewV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI05KindaB16UI247ContentViewV7contentACyxGxyc_tcfc",
+            "mangledName": "$s12kindaSwiftUI05KindaB16UI247ContentViewV7contentACyxGxyc_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI05KindaB16UI247ContentViewV4bodyQrvp",
+            "mangledName": "$s12kindaSwiftUI05KindaB16UI247ContentViewV4bodyQrvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI05KindaB16UI247ContentViewV4bodyQrvg",
+                "mangledName": "$s12kindaSwiftUI05KindaB16UI247ContentViewV4bodyQrvg",
+                "moduleName": "kindaSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI05KindaB16UI247ContentViewV",
+        "mangledName": "$s12kindaSwiftUI05KindaB16UI247ContentViewV",
+        "moduleName": "kindaSwiftUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -522,13 +879,6 @@
       },
       {
         "kind": "Import",
-        "name": "kindaSwiftUI247",
-        "printedName": "kindaSwiftUI247",
-        "declKind": "Import",
-        "moduleName": "kindaSwiftUI"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -536,13 +886,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "kindaSwiftUI247",
-        "printedName": "kindaSwiftUI247",
-        "declKind": "Import",
-        "moduleName": "kindaSwiftUI"
       },
       {
         "kind": "TypeDecl",
@@ -1552,6 +1895,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1564,13 +1917,6 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "kindaSwiftUI"
-      },
-      {
-        "kind": "Import",
-        "name": "kindaSwiftUI247",
-        "printedName": "kindaSwiftUI247",
         "declKind": "Import",
         "moduleName": "kindaSwiftUI"
       },
@@ -4188,6 +4534,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AlertActionLabel",
         "printedName": "AlertActionLabel",
@@ -5027,6 +5383,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -5417,52 +5783,53 @@
             "moduleName": "kindaSwiftUI"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "kindaSwiftUI.AlertType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "kindaSwiftUI.AlertType",
+                    "usr": "s:12kindaSwiftUI9AlertTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "AlertType",
-                "printedName": "kindaSwiftUI.AlertType",
-                "usr": "s:12kindaSwiftUI9AlertTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AlertType",
-                "printedName": "kindaSwiftUI.AlertType",
-                "usr": "s:12kindaSwiftUI9AlertTypeO"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:12kindaSwiftUI9AlertTypeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12kindaSwiftUI9AlertTypeO2eeoiySbAC_ACtFZ",
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI9AlertTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12kindaSwiftUI9AlertTypeO8rawValueACSgSS_tcfc",
             "moduleName": "kindaSwiftUI",
-            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12kindaSwiftUI9AlertTypeO9hashValueSivp",
-            "mangledName": "$s12kindaSwiftUI9AlertTypeO9hashValueSivp",
+            "usr": "s:12kindaSwiftUI9AlertTypeO8rawValueSSvp",
+            "mangledName": "$s12kindaSwiftUI9AlertTypeO8rawValueSSvp",
             "moduleName": "kindaSwiftUI",
             "implicit": true,
             "accessors": [
@@ -5473,44 +5840,19 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI9AlertTypeO9hashValueSivg",
-                "mangledName": "$s12kindaSwiftUI9AlertTypeO9hashValueSivg",
+                "usr": "s:12kindaSwiftUI9AlertTypeO8rawValueSSvg",
+                "mangledName": "$s12kindaSwiftUI9AlertTypeO8rawValueSSvg",
                 "moduleName": "kindaSwiftUI",
                 "implicit": true,
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12kindaSwiftUI9AlertTypeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12kindaSwiftUI9AlertTypeO4hash4intoys6HasherVz_tF",
-            "moduleName": "kindaSwiftUI",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -5520,6 +5862,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "String",
         "conformances": [
           {
             "kind": "Conformance",
@@ -5534,6 +5877,28 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -6416,6 +6781,329 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "KindaSwiftUILogType",
+        "printedName": "KindaSwiftUILogType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "developer",
+            "printedName": "developer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.KindaSwiftUILogType.Type) -> kindaSwiftUI.KindaSwiftUILogType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KindaSwiftUILogType",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KindaSwiftUILogType",
+                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO9developeryA2CmF",
+            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO9developeryA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "navigationRouter",
+            "printedName": "navigationRouter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.KindaSwiftUILogType.Type) -> kindaSwiftUI.KindaSwiftUILogType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KindaSwiftUILogType",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KindaSwiftUILogType",
+                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO16navigationRouteryA2CmF",
+            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO16navigationRouteryA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "alertCenter",
+            "printedName": "alertCenter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(kindaSwiftUI.KindaSwiftUILogType.Type) -> kindaSwiftUI.KindaSwiftUILogType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KindaSwiftUILogType",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KindaSwiftUILogType",
+                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO11alertCenteryA2CmF",
+            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO11alertCenteryA2CmF",
+            "moduleName": "kindaSwiftUI"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[kindaSwiftUI.KindaSwiftUILogType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KindaSwiftUILogType",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvpZ",
+            "moduleName": "kindaSwiftUI",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[kindaSwiftUI.KindaSwiftUILogType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KindaSwiftUILogType",
+                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvgZ",
+                "moduleName": "kindaSwiftUI",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "kindaSwiftUI.KindaSwiftUILogType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KindaSwiftUILogType",
+                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvp",
+            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvp",
+            "moduleName": "kindaSwiftUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvg",
+                "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvg",
+                "moduleName": "kindaSwiftUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO",
+        "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[kindaSwiftUI.KindaSwiftUILogType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KindaSwiftUILogType",
+                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
+                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "KindaSwiftUILogCenter",
         "printedName": "KindaSwiftUILogCenter",
         "children": [
@@ -7007,292 +7695,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "KindaSwiftUILogType",
-        "printedName": "KindaSwiftUILogType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "developer",
-            "printedName": "developer",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(kindaSwiftUI.KindaSwiftUILogType.Type) -> kindaSwiftUI.KindaSwiftUILogType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KindaSwiftUILogType",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KindaSwiftUILogType",
-                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO9developeryA2CmF",
-            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO9developeryA2CmF",
-            "moduleName": "kindaSwiftUI"
-          },
-          {
-            "kind": "Var",
-            "name": "navigationRouter",
-            "printedName": "navigationRouter",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(kindaSwiftUI.KindaSwiftUILogType.Type) -> kindaSwiftUI.KindaSwiftUILogType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KindaSwiftUILogType",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KindaSwiftUILogType",
-                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO16navigationRouteryA2CmF",
-            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO16navigationRouteryA2CmF",
-            "moduleName": "kindaSwiftUI"
-          },
-          {
-            "kind": "Var",
-            "name": "allCases",
-            "printedName": "allCases",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[kindaSwiftUI.KindaSwiftUILogType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KindaSwiftUILogType",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvpZ",
-            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvpZ",
-            "moduleName": "kindaSwiftUI",
-            "static": true,
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[kindaSwiftUI.KindaSwiftUILogType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KindaSwiftUILogType",
-                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvgZ",
-                "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8allCasesSayACGvgZ",
-                "moduleName": "kindaSwiftUI",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "kindaSwiftUI.KindaSwiftUILogType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KindaSwiftUILogType",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "kindaSwiftUI",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvp",
-            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvp",
-            "moduleName": "kindaSwiftUI",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvg",
-                "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO8rawValueSSvg",
-                "moduleName": "kindaSwiftUI",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO",
-        "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO",
-        "moduleName": "kindaSwiftUI",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CaseIterable",
-            "printedName": "CaseIterable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "AllCases",
-                "printedName": "AllCases",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[kindaSwiftUI.KindaSwiftUILogType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KindaSwiftUILogType",
-                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12CaseIterableP",
-            "mangledName": "$ss12CaseIterableP"
-          }
-        ]
-      },
-      {
         "kind": "Function",
         "name": "log",
         "printedName": "log(_:type:dateFormat:_:)",
@@ -7345,6 +7747,163 @@
           "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LicenseKeyStatus",
+        "printedName": "LicenseKeyStatus",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getLicenseKeyStatusResult",
+            "printedName": "getLicenseKeyStatusResult()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LicenseKeyStatusResult",
+                "printedName": "kindaSwiftUI.LicenseKeyStatusResult",
+                "usr": "s:12kindaSwiftUI22LicenseKeyStatusResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI16LicenseKeyStatusV03getdeF6ResultAA0defH0VyFZ",
+            "mangledName": "$s12kindaSwiftUI16LicenseKeyStatusV03getdeF6ResultAA0defH0VyFZ",
+            "moduleName": "kindaSwiftUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI16LicenseKeyStatusV",
+        "mangledName": "$s12kindaSwiftUI16LicenseKeyStatusV",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PoweredByKindaSwiftUIView",
+        "printedName": "PoweredByKindaSwiftUIView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12kindaSwiftUI014PoweredByKindaB6UIViewV4bodyQrvp",
+            "mangledName": "$s12kindaSwiftUI014PoweredByKindaB6UIViewV4bodyQrvp",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12kindaSwiftUI014PoweredByKindaB6UIViewV4bodyQrvg",
+                "mangledName": "$s12kindaSwiftUI014PoweredByKindaB6UIViewV4bodyQrvg",
+                "moduleName": "kindaSwiftUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12kindaSwiftUI014PoweredByKindaB6UIViewV",
+        "mangledName": "$s12kindaSwiftUI014PoweredByKindaB6UIViewV",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -7599,6 +8158,16 @@
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -7937,483 +8506,686 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/FullScreenCoverRouterModifier.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/KindaSwiftUI247ContentView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Modals\/FullScreenCoverRouterModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 469,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/LicenseKeyCenter.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyCenter.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 184,
       "length": 12,
       "value": "\"licenseKey\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
       "kind": "Array",
       "offset": 889,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Tabs\/CustomTabRouterStack.swift",
       "kind": "IntegerLiteral",
       "offset": 1899,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/RootNavigationStack.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/RootNavigationStack.swift",
       "kind": "Array",
       "offset": 631,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 7,
+      "value": "\"trial\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 33,
+      "value": "\"f8gl4OMThSeRiHSP_LpcpQKzSWiYr6p\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 33,
+      "value": "\"HxBoyX9TgVwv8LnU_LkUWfsgrBo8dM5\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 33,
+      "value": "\"1X7rlR0rCDTWX2f7_N7CtW41UqIvA9l\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 33,
+      "value": "\"z78eGwQU11MvHyZo_LmkB9SCRXKRR3W\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 33,
+      "value": "\"l5TXarcxkVfTPwHi_NJV9jaoAdhZUto\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 33,
+      "value": "\"mJarKfuJSgcvO9bT_Lmkpdi4naoTvk0\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 33,
+      "value": "\"JVRuQez5V7gJNJOr_NL1sBokhVZXE0E\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 33,
+      "value": "\"V3Wp2jpzMBOvMqDV_LrKogJIFBEjZDd\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 33,
+      "value": "\"HAfzQwJXjNaCzDZd_NKd9UM2zqKI9LO\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 965,
+      "length": 33,
+      "value": "\"gw1KF9b12Pk0ykYQ_NM84LNBUId6uwX\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 33,
+      "value": "\"X911cT9cCuWuMlnF_NN4icqWlAj0yiR\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 33,
+      "value": "\"7rc1P6vLvPmolsFR_NOON5qiEDM5I9n\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 33,
+      "value": "\"phfAgDh2TKvezIV0_NPQwXlLivhPzki\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 33,
+      "value": "\"PCCILBE181143mrO_MIQ2dbQlHjSGxl\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "BooleanLiteral",
-      "offset": 268,
+      "offset": 245,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 282,
+      "offset": 259,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 272,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 398,
+      "offset": 375,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 494,
+      "offset": 471,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 507,
+      "offset": 484,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 566,
+      "offset": 543,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 576,
+      "offset": 553,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 642,
+      "offset": 619,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 652,
+      "offset": 629,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "Array",
-      "offset": 722,
+      "offset": 699,
       "length": 3,
       "value": "[0]"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/RouterStack\/Router.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/RouterStack\/Router.swift",
       "kind": "IntegerLiteral",
-      "offset": 734,
+      "offset": 711,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 6,
       "value": "\"Okay\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 7,
       "value": "\"Agree\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 7,
       "value": "\"Later\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 17,
       "value": "\"Remind Me Later\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 6,
       "value": "\"Skip\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 17,
       "value": "\"Don't Ask Again\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 9,
       "value": "\"Dismiss\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 9,
       "value": "\"Forward\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 453,
       "length": 6,
       "value": "\"Back\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 10,
       "value": "\"Previous\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 6,
       "value": "\"Next\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 5,
       "value": "\"Yes\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 9,
       "value": "\"Confirm\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 599,
       "length": 6,
       "value": "\"Deny\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 6,
       "value": "\"Open\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 6,
       "value": "\"Okay\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 7,
       "value": "\"Agree\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 7,
       "value": "\"Later\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 17,
       "value": "\"Remind Me Later\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 330,
       "length": 6,
       "value": "\"Skip\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 17,
       "value": "\"Don't Ask Again\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 9,
       "value": "\"Dismiss\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 9,
       "value": "\"Forward\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 453,
       "length": 6,
       "value": "\"Back\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 480,
       "length": 10,
       "value": "\"Previous\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 6,
       "value": "\"Next\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 5,
       "value": "\"Yes\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 9,
       "value": "\"Confirm\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 599,
       "length": 6,
       "value": "\"Deny\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 622,
       "length": 6,
       "value": "\"Open\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertActionLabel.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertActionLabel.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 7,
       "value": "\"Close\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "IntegerLiteral",
       "offset": 574,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "Array",
       "offset": 684,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "Array",
       "offset": 2220,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertCenter.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertType.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 7,
+      "value": "\"alert\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertType.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 21,
+      "value": "\"confirmation dialog\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertType.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 7,
+      "value": "\"alert\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertType.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 21,
+      "value": "\"confirmation dialog\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 201,
+      "offset": 206,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/AlertCenter\/AlertCenter.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/AlertCenter\/AlertCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 271,
+      "offset": 276,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/KindaSwiftUILogCenter.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 16,
+      "value": "\"📟 Developer\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 19,
+      "value": "\"Navigation Router\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 14,
+      "value": "\"Alert Center\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 16,
+      "value": "\"📟 Developer\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 19,
+      "value": "\"Navigation Router\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 14,
+      "value": "\"Alert Center\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "Array",
-      "offset": 420,
+      "offset": 608,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/KindaSwiftUILogCenter.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 738,
-      "length": 16,
-      "value": "\"📟 Developer\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/KindaSwiftUILogCenter.swift",
-      "kind": "StringLiteral",
-      "offset": 788,
-      "length": 19,
-      "value": "\"Navigation Router\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/KindaSwiftUILogCenter.swift",
-      "kind": "StringLiteral",
-      "offset": 738,
-      "length": 16,
-      "value": "\"📟 Developer\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/KindaSwiftUILogCenter.swift",
-      "kind": "StringLiteral",
-      "offset": 788,
-      "length": 19,
-      "value": "\"Navigation Router\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/KindaSwiftUI\/KindaSwiftUILogCenter.swift",
-      "kind": "StringLiteral",
-      "offset": 928,
+      "offset": 966,
       "length": 15,
       "value": "\"HH:mm:ss.SSSS\""
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/TabRouterStack.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1317,
+      "length": 338,
+      "value": "\"License key is undefined or invalid.\n\nPlease (1) set up a `KindaSwiftUI-Info.plist` file with a `key` for your license key. Use `trial` or you may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. Visit\n\nhttps:\/\/store.rebeloper.com\/community\n\n(2) Wrap your app content into the 'KindaSwiftUIContentView'\n\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 257,
+      "value": "\"The trial is full-featured and there's no expiry date, but without a subscription kindaSwiftUI sleeps from time to time.\n\nYou may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. Visit\n\nhttps:\/\/store.rebeloper.com\/community\n\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2015,
+      "length": 294,
+      "value": "\"You have an inactive license key.\n\nThe trial is full-featured and there's no expiry date, but without a subscription kindaSwiftUI sleeps from time to time.\n\nYou may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. Visit\n\nhttps:\/\/store.rebeloper.com\/community\n\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2373,
+      "length": 337,
+      "value": "\"􁃘 🙃 License key is undefined or invalid. Please (1) set up a `KindaSwiftUI-Info.plist` file with a `key` for your license key. Use `trial` or you may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. Visit https:\/\/store.rebeloper.com\/community (2) Wrap your app content into the 'KindaSwiftUIContentView'\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2760,
+      "length": 259,
+      "value": "\"􁃘 😴 The trial is full-featured and there's no expiry date, but without a subscription kindaSwiftUI sleeps from time to time. You may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. Visit https:\/\/store.rebeloper.com\/community\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/LicenseKeyStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 3082,
+      "length": 293,
+      "value": "\"􁃘 😳 You have an inactive license key. The trial is full-featured and there's no expiry date, but without a subscription kindaSwiftUI sleeps from time to time. You may consider subscribing for 'SwiftUI Nation' to keep kindaSwiftUI awake 24\/7. Visit https:\/\/store.rebeloper.com\/community\""
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/License\/PoweredByKindaSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Tabs\/TabRouterStack.swift",
       "kind": "IntegerLiteral",
       "offset": 721,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/NavigationRouter\/Tabs\/TabRouterStack.swift",
+      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Tabs\/TabRouterStack.swift",
       "kind": "IntegerLiteral",
       "offset": 1587,
       "length": 1,
