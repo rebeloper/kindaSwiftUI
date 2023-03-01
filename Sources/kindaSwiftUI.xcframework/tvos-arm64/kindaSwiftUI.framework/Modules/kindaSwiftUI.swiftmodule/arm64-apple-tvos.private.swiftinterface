@@ -120,6 +120,10 @@ public class Router<Destination> : Combine.ObservableObject where Destination : 
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor public func push(_ destination: Destination) async
   #endif
+  public func present<T>(_ destination: Destination, dependencyLink: SwiftUI.Binding<T>, completion: @escaping () -> () = {})
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor public func present<T>(_ destination: Destination, dependencyLink: SwiftUI.Binding<T>) async
+  #endif
   public func present(_ destination: Destination, completion: @escaping () -> () = {})
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor public func present(_ destination: Destination) async

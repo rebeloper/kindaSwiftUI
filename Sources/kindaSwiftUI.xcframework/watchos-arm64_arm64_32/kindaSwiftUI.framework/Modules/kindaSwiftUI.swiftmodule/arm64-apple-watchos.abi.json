@@ -3284,6 +3284,107 @@
           {
             "kind": "Function",
             "name": "present",
+            "printedName": "present(_:dependencyLink:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC7present_14dependencyLink10completionyx_0bC07BindingVyqd__GyyctlF",
+            "mangledName": "$s12kindaSwiftUI6RouterC7present_14dependencyLink10completionyx_0bC07BindingVyqd__GyyctlF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination, T where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:dependencyLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12kindaSwiftUI6RouterC7present_14dependencyLinkyx_0bC07BindingVyqd__GtYalF",
+            "mangledName": "$s12kindaSwiftUI6RouterC7present_14dependencyLinkyx_0bC07BindingVyqd__GtYalF",
+            "moduleName": "kindaSwiftUI",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : kindaSwiftUI.RouterDestination>",
+            "sugared_genericSig": "<Destination, T where Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
             "printedName": "present(_:completion:)",
             "children": [
               {
