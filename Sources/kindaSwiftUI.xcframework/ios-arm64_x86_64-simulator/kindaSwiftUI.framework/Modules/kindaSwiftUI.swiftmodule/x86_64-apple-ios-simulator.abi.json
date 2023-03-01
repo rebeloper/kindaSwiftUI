@@ -4573,43 +4573,6 @@
           },
           {
             "kind": "Var",
-            "name": "alertCenter",
-            "printedName": "alertCenter",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(kindaSwiftUI.KindaSwiftUILogType.Type) -> kindaSwiftUI.KindaSwiftUILogType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "KindaSwiftUILogType",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                    "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "kindaSwiftUI.KindaSwiftUILogType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "KindaSwiftUILogType",
-                        "printedName": "kindaSwiftUI.KindaSwiftUILogType",
-                        "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12kindaSwiftUI05KindaB9UILogTypeO11alertCenteryA2CmF",
-            "mangledName": "$s12kindaSwiftUI05KindaB9UILogTypeO11alertCenteryA2CmF",
-            "moduleName": "kindaSwiftUI"
-          },
-          {
-            "kind": "Var",
             "name": "allCases",
             "printedName": "allCases",
             "children": [
@@ -6482,13 +6445,6 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 281,
-      "length": 14,
-      "value": "\"Alert Center\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
-      "kind": "StringLiteral",
       "offset": 193,
       "length": 11,
       "value": "\"Developer\""
@@ -6502,22 +6458,15 @@
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
-      "kind": "StringLiteral",
-      "offset": 281,
-      "length": 14,
-      "value": "\"Alert Center\""
-    },
-    {
-      "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "Array",
-      "offset": 603,
+      "offset": 565,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/KindaSwiftUILogCenter\/KindaSwiftUILogCenter.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 923,
       "length": 15,
       "value": "\"HH:mm:ss.SSSS\""
     },

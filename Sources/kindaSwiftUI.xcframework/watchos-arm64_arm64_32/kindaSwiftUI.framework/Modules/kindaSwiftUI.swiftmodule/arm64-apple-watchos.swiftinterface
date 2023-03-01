@@ -183,7 +183,6 @@ public protocol RouterUnselectedTab : Swift.Hashable, SwiftUI.View {
 public enum KindaSwiftUILogType : Swift.String, Swift.CaseIterable {
   case developer
   case navigationRouter
-  case alertCenter
   public init?(rawValue: Swift.String)
   public typealias AllCases = [kindaSwiftUI.KindaSwiftUILogType]
   public typealias RawValue = Swift.String
