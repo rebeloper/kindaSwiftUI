@@ -15,8 +15,8 @@ public struct LicenseKeyStatusResult {
 }
 public struct ModalValue {
   public var index: Swift.Int
-  public var dependency: [Swift.String : Any]?
-  public init(index: Swift.Int, dependency: [Swift.String : Any]? = nil)
+  public var dependency: Any?
+  public init(index: Swift.Int, dependency: Any? = nil)
 }
 public struct TabRoot<Destination, Tab> where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab {
   public init(_ root: Destination, tab: Tab)
