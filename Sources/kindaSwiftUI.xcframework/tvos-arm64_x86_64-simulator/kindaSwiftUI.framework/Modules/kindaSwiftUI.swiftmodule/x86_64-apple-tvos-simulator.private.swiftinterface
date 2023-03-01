@@ -15,8 +15,8 @@ public struct LicenseKeyStatusResult {
 }
 public struct ModalValue {
   public var index: Swift.Int
-  public var dependency: Any?
-  public init(index: Swift.Int, dependency: Any? = nil)
+  public var dependency: [Swift.String : Any]?
+  public init(index: Swift.Int, dependency: [Swift.String : Any]? = nil)
 }
 @_Concurrency.MainActor(unsafe) public struct KindaSwiftUI247ContentView<Content> : SwiftUI.View where Content : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(@SwiftUI.ViewBuilder content: @escaping () -> Content)
