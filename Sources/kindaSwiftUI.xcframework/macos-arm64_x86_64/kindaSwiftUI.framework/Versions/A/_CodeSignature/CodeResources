@@ -29,14 +29,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTd8qgq+zu4frlW2Y6Vugzw2HXzVVUplJyTNwdygCRk=
+			KzyvICeWKAlNpgtFDiv9BeSsvxgi3QJjDCKWg8Qh7Qk=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4uIMDoslW5mJJtJ4gZurFa/pvm+/fSnmbr4YP3+RI/Y=
+			Va84G62TF5Y4agAN5wzOONusneTU7kIZhmC2csNF7Xs=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -50,28 +50,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4uIMDoslW5mJJtJ4gZurFa/pvm+/fSnmbr4YP3+RI/Y=
+			Va84G62TF5Y4agAN5wzOONusneTU7kIZhmC2csNF7Xs=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OiPvA4QhqgBb07ell4bxRjz5AIXClgfTwMqgEr1BoHg=
+			eeEypK1nd7LAKqcOz9IpuIryhFH+XZTNfUd/4BN/D9U=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTd8qgq+zu4frlW2Y6Vugzw2HXzVVUplJyTNwdygCRk=
+			KzyvICeWKAlNpgtFDiv9BeSsvxgi3QJjDCKWg8Qh7Qk=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sS2JLTMZjEqFysobxaO3O8e8r/YTROJh1VNO2txoKAo=
+			6Pc40EGTGENbfHONPK474yp0F5lZeE18kT3e5Vcp5y4=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sS2JLTMZjEqFysobxaO3O8e8r/YTROJh1VNO2txoKAo=
+			6Pc40EGTGENbfHONPK474yp0F5lZeE18kT3e5Vcp5y4=
 			</data>
 		</dict>
 		<key>Modules/kindaSwiftUI.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2r8UQQkr7WKECM+qbpETyuw+b2l3rWvFSe5tdRTqXE=
+			uKegmF01BSX/yOXBHTjdopbRVR0ozxjh5pxb5862zgU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

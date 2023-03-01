@@ -13,6 +13,11 @@ public struct LicenseKeyStatusResult {
   public var isActive: Swift.Bool
   public var message: Swift.String
 }
+public struct ModalValue {
+  public var index: Swift.Int
+  public var dependency: Any?
+  public init(index: Swift.Int, dependency: Any? = nil)
+}
 @_Concurrency.MainActor(unsafe) public struct KindaSwiftUI247ContentView<Content> : SwiftUI.View where Content : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(@SwiftUI.ViewBuilder content: @escaping () -> Content)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -150,8 +155,8 @@ extension SwiftUI.View {
   
 }
 public protocol RouterDestination : Swift.Hashable, SwiftUI.View {
-  var modalValue: Swift.Int { get }
-  init?(modalValue: Swift.Int)
+  var modalValue: kindaSwiftUI.ModalValue { get }
+  init?(modalValue: kindaSwiftUI.ModalValue)
 }
 public enum KindaSwiftUILogType : Swift.String, Swift.CaseIterable {
   case developer

@@ -13,6 +13,11 @@ public struct LicenseKeyStatusResult {
   public var isActive: Swift.Bool
   public var message: Swift.String
 }
+public struct ModalValue {
+  public var index: Swift.Int
+  public var dependency: Any?
+  public init(index: Swift.Int, dependency: Any? = nil)
+}
 public struct TabRoot<Destination, Tab> where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab {
   public init(_ root: Destination, tab: Tab)
 }
@@ -168,8 +173,8 @@ extension SwiftUI.View {
   
 }
 public protocol RouterDestination : Swift.Hashable, SwiftUI.View {
-  var modalValue: Swift.Int { get }
-  init?(modalValue: Swift.Int)
+  var modalValue: kindaSwiftUI.ModalValue { get }
+  init?(modalValue: kindaSwiftUI.ModalValue)
 }
 public protocol RouterTab : Swift.Hashable, SwiftUI.View {
 }
