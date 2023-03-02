@@ -442,7 +442,8 @@
             "mangledName": "$s12kindaSwiftUI10ModalValueV5index10dependencyACSi_ypSgtcfc",
             "moduleName": "kindaSwiftUI",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -511,7 +512,8 @@
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab>",
             "sugared_genericSig": "<Destination, Tab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -775,7 +777,8 @@
             "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 : kindaSwiftUI.RouterDestination, τ_0_1 : kindaSwiftUI.RouterTab, τ_0_2 : kindaSwiftUI.RouterUnselectedTab>",
             "sugared_genericSig": "<Destination, Tab, UnselectedTab where Destination : kindaSwiftUI.RouterDestination, Tab : kindaSwiftUI.RouterTab, UnselectedTab : kindaSwiftUI.RouterUnselectedTab>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -5861,6 +5864,76 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RouterModalDependencyLinker",
+        "printedName": "RouterModalDependencyLinker",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RouterModalDependencyLinker",
+                "printedName": "kindaSwiftUI.RouterModalDependencyLinker",
+                "usr": "s:12kindaSwiftUI27RouterModalDependencyLinkerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12kindaSwiftUI27RouterModalDependencyLinkerCACycfc",
+            "mangledName": "$s12kindaSwiftUI27RouterModalDependencyLinkerCACycfc",
+            "moduleName": "kindaSwiftUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12kindaSwiftUI27RouterModalDependencyLinkerC",
+        "mangledName": "$s12kindaSwiftUI27RouterModalDependencyLinkerC",
+        "moduleName": "kindaSwiftUI",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6068,6 +6141,9 @@
             "moduleName": "kindaSwiftUI",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : kindaSwiftUI.RouterDestination>",
             "sugared_genericSig": "<Self, Destination where Self : SwiftUI.View, Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -6149,6 +6225,9 @@
             "moduleName": "kindaSwiftUI",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : kindaSwiftUI.RouterDestination>",
             "sugared_genericSig": "<Self, Destination where Self : SwiftUI.View, Destination : kindaSwiftUI.RouterDestination>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -6424,7 +6503,7 @@
     {
       "filePath": "\/Users\/rebeloper\/Documents\/Work\/Codes\/kindaSwiftUI\/kindaSwiftUI\/Build\/kindaSwiftUI\/kindaSwiftUI\/Sources\/kindaSwiftUI\/NavigationRouter\/Modals\/SheetRouterModifier.swift",
       "kind": "Array",
-      "offset": 2132,
+      "offset": 2486,
       "length": 2,
       "value": "[]"
     },
