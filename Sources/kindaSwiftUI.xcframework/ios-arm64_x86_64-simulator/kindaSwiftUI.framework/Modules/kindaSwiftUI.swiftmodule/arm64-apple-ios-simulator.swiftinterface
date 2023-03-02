@@ -234,7 +234,7 @@ public struct PoweredByKindaSwiftUIView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI14TabRouterStackV4bodyQrvp", 0) __<Destination, Tab>
 }
-public class RouterModalDependencyLinker : Foundation.ObservableObject {
+open class RouterModalDependencyLinker : Foundation.ObservableObject {
   public init()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit

@@ -200,7 +200,7 @@ public struct PoweredByKindaSwiftUIView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s12kindaSwiftUI014PoweredByKindaB6UIViewV4bodyQrvp", 0) __
 }
-public class RouterModalDependencyLinker : Foundation.ObservableObject {
+open class RouterModalDependencyLinker : Foundation.ObservableObject {
   public init()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit

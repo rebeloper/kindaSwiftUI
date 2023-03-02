@@ -5903,6 +5903,7 @@
         "usr": "s:12kindaSwiftUI27RouterModalDependencyLinkerC",
         "mangledName": "$s12kindaSwiftUI27RouterModalDependencyLinkerC",
         "moduleName": "kindaSwiftUI",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
